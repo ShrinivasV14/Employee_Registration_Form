@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Employee Details</title>
+    <style>
+      table,tr,th,td{
+      border:1px solid #000;
+      width:50%;
+      height:50px;
+      }
+
+    </style>
+  </head>
+  <body>
+
+
+    {% if emp %}
+  <table >
+      <thead>
+      <th> Employee Reg.No. </th>
+      <th> First Name </th>
+      <th> Last Name </th>
+      <th> City </th>
+      <th> Age </th>
+
+      <th> MobileNo </th>
+      <th> Email </th>
+      </thead>
+      {% for emps in emp %}
+      <tr>
+        <td>{{emps.EmpRegNo}}</td>
+        <td>{{emps.FirstName}}</td>
+        <td>{{emps.LastName}}</td>
+        <td>{{emps.City}}</td>
+        <td>{{emps.Age}}</td>
+        <td>{{emps.MobileNo}}</td>
+        <td>{{emps.Email}}</td>
+
+
+      </tr>
+      {% endfor %}
+    </table>
+    {% else %}
+    <p> No Employee Records found</p>
+    {% endif %}
+
+
+
+
+
+  </body>
+</html>

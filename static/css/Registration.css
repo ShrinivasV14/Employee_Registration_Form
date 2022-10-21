@@ -1,0 +1,74 @@
+* {box-sizing: border-box}
+
+.view h4{
+text-align:right;
+
+background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    display:inline-block;
+}
+
+.tablecenter{
+text-align: left;
+    width: 70%;
+    display: block;
+    margin-left: 30%;
+}
+
+.view a{
+color:#fff;
+text-decoration:none;
+}
+
+.view{
+    text-align: right;
+    margin-top: -75px;
+    margin-right: 40px;}
+
+h1{
+text-align: center;
+}
+
+.container {
+  padding: 16px;
+}
+b{
+  text-align: left;
+}
+
+
+input[type=text], input[type=number],input[type=tel],input[type=email] {
+  width:50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
